@@ -80,5 +80,5 @@ test:
 production:
   <<: *default
   database: airbnd_production
-  username: airbnd
-  password: <%= ENV["AIRBND_DATABASE_PASSWORD"] %>
+  username: ranker
+   %>
